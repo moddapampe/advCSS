@@ -16,11 +16,13 @@ html {
 
 h1 {
     font-size: 120%;
+    width: 100px;
 }
 
 main {
     color: #000;
     color: rgba(0, 0, 0, 5);
+    font-weight: bolder;
 }
 
 .test-div {
@@ -37,4 +39,8 @@ main {
 #test-span {
     width: 200px;
     color: red
+}
+
+body>* {
+    border: 3px solid black;
 }
