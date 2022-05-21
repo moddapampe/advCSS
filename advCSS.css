@@ -14,11 +14,27 @@ html {
     color: white;
 }
 
-#header-h1 {
+h1 {
     font-size: 120%;
 }
 
 main {
     color: #000;
     color: rgba(0, 0, 0, 5);
+}
+
+.test-div {
+    width: 200px;
+}
+
+#test-button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+#test-span {
+    width: 200px;
+    color: red
 }
