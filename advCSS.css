@@ -4,6 +4,7 @@
 
 html {
     font-size: 2rem;
+    font-family: monospace;
 }
 
 .header-section {
@@ -14,7 +15,6 @@ html {
 }
 
 #header-h1 {
-    font-family: monospace;
     font-size: 120%;
 }
 
