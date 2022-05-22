@@ -1,26 +1,8 @@
 main {
     border: 5px solid black;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-nav {
-    flex-grow: 1;
-}
-
-div {
-    padding: 1rem;
-    border: 3px solid blue;
-    width: 250px;
-    height: 250px;
-}
-
-li {}
-
-@media only screen and (min-width: 768px) {
-    nav {
-        align-self: flex-start;
-        float: left;
-        padding: 2rem;
-    }
+    width: 400px;
+    height: 400px;
+    background-image: url("http://placekitten.com/g/640/360");
+    background-image: url("_http://placekitten.com/g/640/360");
+    background-color: salmon;
 }
