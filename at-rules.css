@@ -1,16 +1,37 @@
-body {
-    background-color: white;
-    font-family: monospace;
+main {
+    max-width: 35ch;
 }
 
-.content {
-    display: block;
+@media screen and (min-width: 300px) {
+    html {
+        font-size: 20px;
+    }
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        background-color: rgb(91, 87, 145);
+@media screen and (min-width: 500px) {
+    header {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    aside {
+        position: fixed;
+        right: 0;
+        top: 0;
+        background-color: salmon;
+        padding: .5em;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        position: fixed;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 20px;
     }
 }
