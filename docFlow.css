@@ -6,4 +6,6 @@ body * {
 
 main {
     background-color: greenyellow;
+    _display: none;
+    _visibility: hidden;
 }
