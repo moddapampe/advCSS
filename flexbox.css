@@ -4,9 +4,23 @@ main {
     flex-wrap: wrap;
 }
 
+nav {
+    flex-grow: 1;
+}
+
 div {
     padding: 1rem;
     border: 3px solid blue;
     width: 250px;
     height: 250px;
+}
+
+li {}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        align-self: flex-start;
+        float: left;
+        padding: 2rem;
+    }
 }
