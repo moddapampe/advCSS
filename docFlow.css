@@ -1,22 +1,36 @@
 body * {
-    border: 2px solid black;
-    padding: 5px;
-    margin: 10px;
+    box-sizing: border-box;
 }
 
 main {
     background-color: greenyellow;
-    _display: none;
-    _visibility: hidden;
+    margin-top: 40px;
+    margin-left: 40px;
+    border: 3px solid rgb(177, 37, 37);
+    position: relative;
 }
 
-html {
-    direction: ltr;
+article {
+    border: 2px solid black;
+    padding: 5px;
 }
 
-article:nth-child(3) {
+article+article {
+    margin-top: 10px;
+}
+
+article:nth-child(2) {
     background-color: salmon;
-    position: static;
+    position: absolute;
     top: 20px;
-    left: 20px;
+    left: 40px;
+    margin: 0px;
+}
+
+article:nth-child(4) {
+    background-color: dodgerblue;
+    position: absolute;
+    width: 200px;
+    bottom: 0px;
+    left: 0px;
 }
