@@ -1,8 +1,15 @@
-main {
+.bill {
     border: 5px solid black;
     width: 400px;
     height: 400px;
-    background-image: url("http://placekitten.com/g/640/360");
-    background-image: url("_http://placekitten.com/g/640/360");
+    background-image: url("https://www.fillmurray.com/400/400");
+    background-color: salmon;
+}
+
+.murray {
+    border: 5px solid black;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://www.fillmurray.com/400/400");
     background-color: salmon;
 }
