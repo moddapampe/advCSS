@@ -5,8 +5,6 @@ html {
 main {
     border: 5px solid black;
     display: flex;
-    height: 200px;
-    align-items: baseline;
 }
 
 div {
@@ -14,22 +12,12 @@ div {
     border: 3px solid blue;
 }
 
-din:nth-child(1) {
-    margin-top: 50px;
+div:nth-child(1) {
+    background-color: salmon;
+    order: 100;
 }
 
-div:nth-child(3) {
-    padding-top: 30px;
-}
-
-.it-1 {
-    order: 1;
-}
-
-.it-2 {
-    order: 0;
-}
-
-.it-3 {
-    order: -10;
+div:nth-child(5) {
+    background-color: dodgerblue;
+    order: -100;
 }
