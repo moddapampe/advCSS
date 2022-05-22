@@ -1,27 +1,10 @@
-    body * {
+    body {
         box-sizing: border-box;
+        max-width: 200px;
     }
     
-    main {
-        background-color: greenyellow;
-        margin-top: 40px;
-        margin-left: 40px;
-        border: 3px solid rgb(177, 37, 37);
-        position: relative;
-    }
-    
-    article {
-        border: 2px solid black;
-        padding: 5px;
-    }
-    
-    article+article {
-        margin-top: 10px;
-    }
-    
-    article:nth-child(2) {
-        background-color: salmon;
-        position: fixed;
+    header {
+        position: sticky;
         top: 0px;
-        left: 0px;
+        background-color: lightblue;
     }
