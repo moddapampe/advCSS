@@ -10,19 +10,6 @@ main {
 div {
     padding: 1rem;
     border: 3px solid blue;
-    flex-grow: 1;
-}
-
-div:nth-child(1) {
-    background-color: salmon;
-    order: 100;
-}
-
-div:nth-child(5) {
-    background-color: dodgerblue;
-    order: -100;
-}
-
-div:nth-child(1) {
-    flex-grow: 1;
+    width: 100px;
+    flex-shrink: 1;
 }
