@@ -1,11 +1,18 @@
     body {
         box-sizing: border-box;
-        max-width: 200px;
+        max-width: 400px;
+        font-size: 16px;
+        font-family: monospace;
+    }
+    
+    html {
+        font-size: 20px;
     }
     
     header {
         position: sticky;
-        top: 0px;
+        width: 200px;
+        width: 50vmax;
         background-color: lightblue;
         border: 2px solid black;
     }
@@ -14,14 +21,7 @@
         border: 2px solid black;
     }
     
-    article:nth-child(3) {
-        background-color: burlywood;
-        position: absolute;
-        padding-left: 400px;
-    }
-    
-    aside {
-        padding-top: 0px;
-        padding-left: 20px;
-        border: 2px solid black;
+    h2 {
+        background-color: yellowgreen;
+        max-width: 60ch;
     }
