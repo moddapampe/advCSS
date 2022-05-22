@@ -3,20 +3,14 @@ body {
     font-family: monospace;
 }
 
-@media screen and (min-width: 200px) {
-    body {
+.content {
+    display: block;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
         background-color: rgb(91, 87, 145);
-    }
-}
-
-@media screen and (min-width: 400px) {
-    body {
-        background-color: rgb(153, 33, 19)on;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    body {
-        background-color: salmon;
     }
 }
