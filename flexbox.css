@@ -4,20 +4,13 @@ html {
 
 main {
     border: 5px solid black;
-    display: flex;
+    flex-direction: column;
 }
 
 div {
     padding: 1rem;
     border: 3px solid blue;
     width: 100px;
-    flex-shrink: 1;
-}
-
-div:nth-child(1) {
-    flex-shrink: 0;
-}
-
-div:nth-child(5) {
-    flex-shrink: 10;
+    height: 100px;
+    flex-basis: 50px;
 }
