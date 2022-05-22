@@ -1,18 +1,11 @@
-html,
-body {
-    height: 100%;
+main {
+    background-color: salmon;
+    width: 80%;
 }
 
-body {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.absolute-units {
-    font-size: 48px;
-}
-
-.relative-units {
-    font-size: 3rem;
+article {
+    background-color: dodgerblue;
+    width: 40%;
+    padding: 10%;
+    font-size: 200%;
 }
