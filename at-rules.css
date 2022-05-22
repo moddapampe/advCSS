@@ -1,11 +1,22 @@
-@media print {
-    nav {
-        display: none;
+body {
+    background-color: white;
+    font-family: monospace;
+}
+
+@media screen and (min-width: 200px) {
+    body {
+        background-color: rgb(91, 87, 145);
     }
 }
 
-@media screen {
-    footer {
-        display: none;
+@media screen and (min-width: 400px) {
+    body {
+        background-color: rgb(153, 33, 19)on;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: salmon;
     }
 }
