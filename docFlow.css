@@ -9,3 +9,7 @@ main {
     _display: none;
     _visibility: hidden;
 }
+
+html {
+    direction: rtl;
+}
