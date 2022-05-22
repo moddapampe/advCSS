@@ -11,5 +11,12 @@ main {
 }
 
 html {
-    direction: rtl;
+    direction: ltr;
+}
+
+article:nth-child(3) {
+    background-color: salmon;
+    position: static;
+    top: 20px;
+    left: 20px;
 }
