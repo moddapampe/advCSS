@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    width: 30vmin;
+    height: 30vmin;
+    background-color: salmon;
+}
+
+.shadow {
+    position: absolute;
+    border: 2vmin dashed black;
+    background-color: transparent;
+}
+
+.transform {
+    transform: translate(50px, -50px);
+}
