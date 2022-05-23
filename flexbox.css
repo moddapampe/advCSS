@@ -1,15 +1,36 @@
 .bill {
     border: 5px solid black;
-    width: 400px;
-    height: 400px;
-    background-image: url("https://www.fillmurray.com/400/400");
+    width: 200px;
+    height: 200px;
+    background-image: url("https://www.fillmurray.com/200/200");
     background-color: salmon;
 }
 
 .murray {
     border: 5px solid black;
-    width: 400px;
-    height: 400px;
-    background-image: url("https://www.fillmurray.com/400/400");
+    width: 200px;
+    height: 200px;
+    background-image: url("https://www.fillmurray.com/200/200");
     background-color: salmon;
+}
+
+.linear {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(salmon 0%, dodgerblue 50%, gold 100%);
+}
+
+.gradient-1 {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red 50%, blue);
+}
+
+.gradient-2 {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red, blue);
 }
