@@ -1,41 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main {
-    font-size: 5rem;
-    font-weight: 800;
-    color: transparent;
-    background-image: linear-gradient(to right, salmon, black);
-    -webkit-background-clip: text;
-    background-clip: text;
+:root {
+    --surface-color: #fff;
+    --text-color: #000;
+    --highlight-color: salmon;
 }
 
-div {
-    width: 40vmin;
-    height: 40vmin;
-    border: 2vmin solid rgba(0, 0, 0, .2);
-    background-color: salmon;
-    padding: 5vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div+div {
-    margin-left: 5vmin;
-}
-
-.border-box {
-    background-clip: border-box;
-}
-
-.padding-box {
-    background-clip: padding-box;
-}
-
-.content-box {
-    background-clip: content-box;
+.button--medium {
+    --base-size: 1rem;
+    all: unset;
+    color: var(--text-color);
+    border: calc(.2*var(--base-size)) solid var(--text-color);
 }
