@@ -1,4 +1,6 @@
 main {
+    height: 400px;
+    border: 3px solid black;
     display: grid;
     grid-template-columns: 150px 150px 150px;
     justify-content: space-between;
@@ -9,8 +11,4 @@ article {
     background-color: lightgreen;
     border: 1px solid blue;
     padding: 10px;
-}
-
-article:nth-child(3) {
-    background-color: aqua;
 }
