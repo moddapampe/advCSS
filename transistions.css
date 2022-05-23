@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div+div {
+    margin-left: 5px;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background: red;
+    border: 2px solid black;
+}
+
+.back {
+    transition: black 1s;
+}
+
+.back:hover {
+    background-color: salmon;
+}
