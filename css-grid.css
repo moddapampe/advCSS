@@ -1,0 +1,10 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    background-color: lightgreen;
+    border: 1px solid blue;
+    padding: 5vmin;
+}
