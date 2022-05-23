@@ -1,18 +1,41 @@
-.bill {
-    border: 5px solid black;
-    width: 250px;
-    height: 250px;
-    background-image: url("https://www.fillmurray.com/200/200");
-    background-color: salmon;
-    background-size: 100%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.murray {
-    border: 5px solid black;
-    width: 500px;
-    height: 500px;
-    background-image: url("https://www.fillmurray.com/200/200");
+main {
+    font-size: 5rem;
+    font-weight: 800;
+    color: transparent;
+    background-image: linear-gradient(to right, salmon, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+div {
+    width: 40vmin;
+    height: 40vmin;
+    border: 2vmin solid rgba(0, 0, 0, .2);
     background-color: salmon;
-    background-repeat: no-repeat;
-    background-position: 50px 100px;
+    padding: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div+div {
+    margin-left: 5vmin;
+}
+
+.border-box {
+    background-clip: border-box;
+}
+
+.padding-box {
+    background-clip: padding-box;
+}
+
+.content-box {
+    background-clip: content-box;
 }
