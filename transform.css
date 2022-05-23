@@ -31,5 +31,10 @@ div {
 }
 
 .transform {
-    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    transition: transform 1s;
+}
+
+body:hover .transform {
+    transform: rotateY(90deg);
 }
