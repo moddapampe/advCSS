@@ -36,5 +36,5 @@ div {
 }
 
 body:hover .transform {
-    transform: rotateY(90deg);
+    transform: scale(2);
 }
