@@ -1,7 +1,10 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
+html,
 body {
     height: 100%;
 }
@@ -13,20 +16,68 @@ body {
 }
 
 div+div {
-    margin-left: 5px;
+    margin-left: 5vmin;
 }
 
 div {
-    width: 400px;
-    height: 400px;
-    background: red;
-    border: 2px solid black;
+    position: relative;
+    width: 20vmin;
+    height: 30vmin;
+    border: 2vmin solid black;
+    transition-property: background-color;
+    transition-duration: 1s;
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-200%);
+    }
 }
 
-.back {
-    transition: black 1s;
-}
-
-.back:hover {
+body:hover div {
     background-color: salmon;
+}
+
+.ease {
+    transition-timing-function: ease;
+    &:before {
+        content: 'ease';
+    }
+}
+
+.linear {
+    transition-timing-function: linear;
+    &:before {
+        content: 'linear';
+    }
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+    &:before {
+        content: 'ease-in';
+    }
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+    &:before {
+        content: 'ease-out';
+    }
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    &:before {
+        content: 'ease-in-out';
+    }
+}
+
+.steps {
+    transition-timing-function: steps(5);
+    &:before {
+        content: 'steps(5)';
+    }
 }
