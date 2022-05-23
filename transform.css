@@ -14,10 +14,14 @@ body {
 }
 
 div {
+    font-size: 3rem;
     position: relative;
     width: 30vmin;
     height: 30vmin;
     background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .shadow {
@@ -27,5 +31,5 @@ div {
 }
 
 .transform {
-    transform: translate(50%, 25%);
+    transform: rotate(45deg);
 }
