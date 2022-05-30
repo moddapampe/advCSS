@@ -8,9 +8,9 @@
         font-family: 'Montserrat', sans-serif;
         background-color: white;
         border: 1px solid black;
-        justify-content: center;
-        align-items: center;
         max-width: 600px;
+        width: 100%;
+        margin: auto;
     }
     
     .header-bg {
@@ -19,7 +19,6 @@
         width: 391px;
         height: 95px;
         background-color: hsl(267, 77%, 56%);
-        box-sizing: border-box;
         clip-path: polygon(50% 99%, 100% 78%, 100% 0, 0 0, 0 78%);
     }
     
@@ -34,30 +33,31 @@
     
     h1 {
         color: white;
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
         padding: 1px;
         position: fixed;
-        float: right;
         margin-left: 80px;
         margin-top: 32px;
     }
     
+    main {
+        display: flex-start;
+    }
+    
     h2 {
         margin-left: 40px;
-        margin-top: -30px;
         font-size: 18px;
         color: #6A1CC3;
     }
     
     h3 {
         font-size: 17px;
-        text-align: center;
         align-self: center;
         padding: 1px;
         color: rgb(88, 88, 88);
-        height: 15px;
-        margin-top: 90px;
+        height: 18px;
+        margin-left: 40px;
     }
     
     h4 {
@@ -95,41 +95,6 @@
         justify-content: center;
     }
     
-    main {
-        box-sizing: border-box;
-    }
-    
-    div {
-        padding: 1px;
-        margin-bottom: 20px;
-        width: 300px;
-        height: 80px;
-    }
-    
-    select {
-        position: flex;
-        _align-self: left;
-    }
-    
-    .search {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    
-    .searchfield {
-        position: ;
-        color: #6A1CC3;
-        height: 50px;
-        margin-top: 20px;
-    }
-    
-    #searchtitle {
-        position: flex;
-        color: rgb(88, 88, 88);
-        position: absolute;
-        margin-top: 0px;
-    }
-    
     #searchinput {
         display: flex;
         position: absolute;
@@ -137,29 +102,57 @@
         background-image: url("magnifying-glass-2-16.png");
         background-repeat: no-repeat;
         background-position: right;
-        padding-left: 10px;
+        padding-right: 10px;
         margin-left: 40px;
-        width: 328px;
-        height: 36px;
+        width: 326px;
+        height: 38px;
         border: 2px solid hsl(267, 77%, 56%);
     }
     
-    .students {
-        margin-top: 20px;
-        margin-bottom: 2px;
-        height: 35px
-    }
-    
     .container {
-        row-gap: 2px;
-        height: 68.19px;
-        margin-left: 40px;
-        padding-left: -20px;
-        padding-bottom: 5px;
-        justify-content: center;
-        align-self: center;
+        display: ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
         border: 2px solid hsl(268, 75%, 44%);
         box-shadow: 3px 3px 3px #6A1CC3;
+        width: 325px;
+        height: 68.19px;
+        margin-left: 40px;
+    }
+    
+    .container:nth-child(1) {
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-top: 10px;
+    }
+    
+    .container:nth-child(2) {
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-top: 10px;
+    }
+    
+    .container:nth-child(3) {
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-top: 10px;
+    }
+    
+    .container:nth-child(4) {
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-top: 10px;
+    }
+    
+    .container:nth-child(5) {
+        flex: 0 1 auto;
+        align-self: auto;
+        margin-top: 10px;
     }
     
     .avatar {
@@ -169,34 +162,4 @@
         margin: 10px;
         background-color: hsl(267, 77%, 56%);
         border-radius: 2px;
-    }
-    
-    .nameplate {
-        justify-content: center;
-        text-align: left;
-        align-self: center;
-        padding-left: 0px;
-        padding-top: 20px;
-        margin-top: 20px;
-        margin-left: 10px;
-        height: 68.19px;
-    }
-    
-    .classes-option {
-        width: 182px;
-        height: 45px;
-    }
-    
-    #name {
-        justify-content: center;
-        align-self: center;
-        padding-top: 20px;
-        font-size: 16px;
-        color: #6A1CC3;
-    }
-    
-    #lorem {
-        padding-bottom: 20px;
-        _text-align: left;
-        text-align: start;
     }
