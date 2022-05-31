@@ -7,7 +7,6 @@
         width: 391px;
         font-family: 'Montserrat', sans-serif;
         background-color: white;
-        border: 1px solid black;
         max-width: 600px;
         width: 100%;
         margin: auto;
@@ -105,8 +104,8 @@
     #searchinput {
         display: flex;
         position: relative;
-        background-color: #E5E5E5;
-        background-image: url("magnifying-glass-2-16.png");
+        background-color: #e0e0e0;
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/16px-Magnifying_glass_icon.svg.png");
         background-repeat: no-repeat;
         background-position: 95% 50%;
         padding-right: 10px;
@@ -114,6 +113,7 @@
         margin-top: 5px;
         width: 326px;
         height: 38px;
+        color: #6A1CC3;
         border: 2px solid hsl(267, 77%, 56%);
     }
     
