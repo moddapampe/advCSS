@@ -108,7 +108,7 @@
         background-color: #E5E5E5;
         background-image: url("magnifying-glass-2-16.png");
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: 95% 50%;
         padding-right: 10px;
         margin-left: 40px;
         margin-top: 5px;
@@ -123,6 +123,7 @@
         width: 182px;
         background: #fff;
         margin-left: 40px;
+        margin-top: 10px;
         font-size: 18px;
         font-weight: 400;
         border: #6A1CC3 solid 2px;
@@ -136,12 +137,15 @@
         height: 38px;
         width: 131px;
         background: #fff;
-        margin-left: 94px;
+        margin-left: 235px;
+        margin-top: -38px;
         font-size: 18px;
         font-weight: 400;
         border: #6A1CC3 solid 2px;
         align-items: center;
         cursor: pointer;
+        justify-content: flex-start;
+        position: relative;
     }
     
     #fellow {
