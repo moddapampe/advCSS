@@ -24,7 +24,7 @@
     
     .header-fg {
         position: absolute;
-        top: 8px;
+        top: 0px;
         width: 391px;
         height: 90px;
         clip-path: polygon(50% 99%, 100% 77%, 100% 0, 0 0, 0 77%);
@@ -47,6 +47,8 @@
     
     h2 {
         margin-left: 40px;
+        margin-top: 40px;
+        padding-top: 30px;
         font-size: 18px;
         color: #6A1CC3;
     }
@@ -70,20 +72,23 @@
     
     p {
         font-size: 10px;
-        text-align: center;
+        text-align: left;
         align-self: center;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
     
     a {
         margin-top: 0px;
+        margin-left: 1px;
     }
     
     .navbutton {
         float: left;
         margin: auto;
-        width: 25px;
-        height: 25px;
-        z-index: -1;
+        width: 33px;
+        height: 33px;
+        margin-top: 1px;
         background-color: #6A1CC3;
         color: white
     }
@@ -99,27 +104,60 @@
     
     #searchinput {
         display: flex;
-        position: absolute;
+        position: relative;
         background-color: #E5E5E5;
         background-image: url("magnifying-glass-2-16.png");
         background-repeat: no-repeat;
         background-position: right;
         padding-right: 10px;
         margin-left: 40px;
+        margin-top: 5px;
         width: 326px;
         height: 38px;
         border: 2px solid hsl(267, 77%, 56%);
     }
     
-    .container {
-        display: ms-flexbox;
-        display: -webkit-flex;
+    #years {
         display: flex;
+        height: 38px;
+        width: 182px;
+        background: #fff;
+        margin-left: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        border: #6A1CC3 solid 2px;
+        align-items: center;
+        cursor: pointer;
+        justify-content: space-between;
+    }
+    
+    #full-part {
+        display: flex;
+        height: 38px;
+        width: 131px;
+        background: #fff;
+        margin-left: 94px;
+        font-size: 18px;
+        font-weight: 400;
+        border: #6A1CC3 solid 2px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    #fellow {
+        padding: 0%;
+        display: inline-flex;
+        margin-top: 0px;
+        justify-content: flex-start;
+    }
+    
+    .container {
+        display: inline-flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
-        align-content: flex-start;
         align-items: flex-start;
+        text-align: left;
         border: 2px solid hsl(268, 75%, 44%);
         box-shadow: 3px 3px 3px #6A1CC3;
         width: 325px;
@@ -162,19 +200,32 @@
         height: 39px;
         margin-left: 10px;
         margin-top: 10px;
-        padding: 8px;
+        display: inline-flex;
         justify-content: center;
         align-items: center;
         background-color: hsl(267, 77%, 56%);
         border-radius: 2px;
+        background-image: url("person.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        text-decoration-color: #E5E5E5;
     }
     
     .nameplate {
         padding-left: 80px;
-        margin-top: -65px;
+        margin-top: -60px;
         align-content: flex-start;
+        text-decoration-color: #6A1CC3;
     }
     
     #full-time {
-        margin-top: 100px;
+        margin-top: 40px;
+    }
+    
+    #lorem {
+        margin-top: 0px;
+    }
+    
+    #name {
+        color: #6A1CC3;
     }
